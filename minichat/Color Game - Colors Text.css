@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Set de couleurs de texte */
+
+.textWhite {
+	color:white;
+}
+
+.textBlack {
+	color:black;
+}
+
+.textLgrey {
+	color:rgba(220,220,220,1.00);
+}
+
+.textDgrey {
+	color:rgba(55,55,55,1.00);
+}
+
+
+.textKlein {
+	color:rgba(1,47,167,1.00);
+}
+
+.textBordeau {
+	color:rgba(109,8,26,1.00);
+}
+
+.textRoi {
+	color:rgba(49,140,231,1.00);
+}
+
+.textCoquelicot {
+	color:rgba(197,9,0,1.00);
+}
+
+.textCarmin {
+	color:rgba(150,0,25,1.00);
+}
+
+.textVessie  {
+	color:rgba(34,119,15,1.00);
+}
+
+.textSienne  {
+	color:rgba(137,51,36,1.00);
+}
+
+.textLapis  {
+	color:rgba(38,97,155,1.00);
+}
+
+.textAbricot  {
+	color:rgba(229,126,47,1.00);
+}
+
+.textCitrouille  {
+	color:rgba(223,109,20,1.00);
+}
+
+.textCardinal  {
+	color:rgba(184,33,16,1.00);
+}
+
+.textPrune  {
+	color:rgba(129,21,83,1.00);
+}
+
+.textMalachite  {
+	color:rgba(32,160,85,1.00);
+}
+
+.textOlive  {
+	color:rgba(112,141,25,1.00);
+}
+
+.textMais  {
+	color:rgba(255,222,117,1.00);
+}
+
+.textCreme  {
+	color:rgba(253,241,183,1.00);
+}
+
+.textCaeruleum  {
+	color:rgba(53,121,182,1.00);
+}
+
+.textIndigo  {
+	color:rgba(122,28,248,1.00);
+}
+
+.textTurquin {
+	color:rgba(66,91,138,1.00);	
+}
+
+/* Set de couleurs de texte pour Hover */
+
+.textWhiteHover:hover {
+	color:white;
+}
+
+.textBlackHover:hover {
+	color:black;
+}
+
+.textLgreyHover:hover {
+	color:rgba(220,220,220,1.00);
+}
+
+.textDgreyHover:hover {
+	color:rgba(55,55,55,1.00);
+}
+
+
+.textKleinHover:hover {
+	color:rgba(1,47,167,1.00);
+}
+
+.textBordeauHover:hover {
+	color:rgba(109,8,26,1.00);
+}
+
+.textRoiHover:hover {
+	color:rgba(49,140,231,1.00);
+}
+
+.textCoquelicotHover:hover {
+	color:rgba(197,9,0,1.00);
+}
+
+.textCarminHover:hover {
+	color:rgba(150,0,25,1.00);
+}
+
+.textVessieHover:hover  {
+	color:rgba(34,119,15,1.00);
+}
+
+.textSienneHover:hover  {
+	color:rgba(137,51,36,1.00);
+}
+
+.textLapisHover:hover  {
+	color:rgba(38,97,155,1.00);
+}
+
+.textAbricotHover:hover  {
+	color:rgba(229,126,47,1.00);
+}
+
+.textCitrouilleHover:hover  {
+	color:rgba(223,109,20,1.00);
+}
+
+.textCardinalHover:hover  {
+	color:rgba(184,33,16,1.00);
+}
+
+.textPruneHover:hover  {
+	color:rgba(129,21,83,1.00);
+}
+
+.textMalachiteHover:hover  {
+	color:rgba(32,160,85,1.00);
+}
+
+.textOliveHover:hover  {
+	color:rgba(112,141,25,1.00);
+}
+
+.textMaisHover:hover  {
+	color:rgba(255,222,117,1.00);
+}
+
+.textCremeHover:hover  {
+	color:rgba(253,241,183,1.00);
+}
+
+.textCaeruleumHover:hover {
+	color:rgba(53,121,182,1.00);
+}
+
+.textIndigoHover:hover  {
+	color:rgba(122,28,248,1.00);
+}
+
+.textTurquinHover:hover {
+	color:rgba(66,91,138,1.00);	
+}

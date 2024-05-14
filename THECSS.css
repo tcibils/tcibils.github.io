@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+
+/* Uniformisation de la police et du display des fonds d'écran */
+#fondIndex, #fondMaison, #fondACC, #fondJeu, #fondFamille {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover;
+	/* Police changeable ici */
+	font-family: Helvetica, Gotham, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ------- Images de fond --------- */
+#fondIndex, #fondACC {
+	background-image: url(fond2.jpg);
+}
+
+#fondMaison {
+	background-image: url(maison.jpg);
+}
+
+#fondFamille {
+	background-image: url(famille.jpg);
+}
+
+#fondJeu {
+	background-image: url(jeux.jpg);
+}
+
+/* -------- old but necessary stuff ---- */
+h1 {
+	position: absolute;
+	top: 17%;
+	left: 17%;
+
+}
+
+.title {
+		text-decoration: none;
+		color:black;	
+	background-color:  rgba(212,79,4,0.90);
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.retourFamille :hover {
+	background-color: rgba(218,213,209,1);
+}
+
+.retourFamille a {
+	background-color: rgba(218,213,209,0.85);
+	text-decoration: none;
+	color: black;	
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	font-weight: bold;
+	width: 20%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.myPage a {
+	color: black;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	background-color: rgba(218,213,209,0.70);
+	position: absolute;
+	right: 15%;
+	top: 30%;
+	font-weight: bold;
+	border-radius: 8px;
+	text-align: center;
+
+}
+
+.myPage :hover {
+	background-color: rgba(218,213,209,0.90);
+}
+
+
+/* ----------------- A DES MAINNAV -----------*/
+
+#mainnavJeux a {
+	font-weight: bold;
+	display: block;
+	font-size: large;
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	background-color: rgba(228,228,228,1.00);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top:10%;
+	padding-bottom:10%;
+	text-align: center;
+}
+
+
+#mainnavFamille a, #mainnavIndex a, #mainnavACC a {
+	font-weight: bold;
+	display: block;
+	font-size: large;
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#mainnavACC a {
+	width:25%;
+}
+
+#mainnavFamille a, #mainnavIndex a {
+	width: 20%;
+}
+
+#mainnavIndex a {
+	width: 33.333%;
+}
+
+
+/* ------------- UL DES MAINNAV ----------- */
+
+/* Menus sans puces et manipulables */
+#mainnavIndex ul, #mainnavFamille ul, #mainnavACC ul, #mainnavJeux ul {
+	list-style-type: none;
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+/* Menus en bas de l'écran */
+#mainnavIndex ul, #mainnavFamille ul, #mainnavACC ul {
+	bottom: 0%;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	float: left;
+	text-align: center;
+}
+
+/* Menu sur la gauche */
+#mainnavJeux ul {
+	text-align: left;
+	position: absolute;
+	top: 3%;
+	bottom: 3%;
+	left: 5%;
+	right: 70%;
+}
+
+
+#mainnavIndex a {
+	background-color: rgba(218,213,209,0.75);
+}
+
+#mainnavFamille a {
+	background-color: rgba(218,213,209,0.85);
+}
+
+#mainnavACC a {
+	background-color: rgba(212,79,4,1.00);
+}
+
+/* ---- Hover color des UL ------ */
+
+#mainnavFamille ul :hover, #mainnavFamille ul :active, #mainnavFamille ul :focus {
+	background-color: rgba(218,213,209,1);
+}
+
+
+#mainnavJeux ul :hover {
+	background-color: rgba(212,32,44,1.00);
+}
+
+#mainnavACC ul :hover, #mainnavACC ul :active, #mainnavACC ul :focus {
+	background-color: rgba(218,213,209,0.85);
+}
+
+#mainnavIndex ul :hover, #mainnavIndex ul :active, #mainnavIndex ul :focus {
+	background-color: rgba(212,79,4,1.00);
+}
+
+/* ---------- Footer -------- */
+
+footer {
+	position: absolute;
+	bottom: 0%;
+	text-color: black;
+	background-color: rgba(255,255,255,0.40);
+	clear: both;
+	right: 0%;
+	font-size: x-small;
+}

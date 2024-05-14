@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	font-family: Helvetica, Gotham, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Fonds gauche et droite, des deux couleurs */ 
+
+.gaucheClair {
+	background:rgba(210,210,210,1.00);
+	position:absolute;
+	width: 50%;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	
+}
+
+.droiteClair {
+	background:rgba(210,210,210,1.00);
+	position:absolute;
+	width: 50%;
+	top: 0%;
+	bottom: 0%;
+	left: 50%;
+	
+}
+
+.droiteFonce {
+	background:rgba(58,58,58,1.00);	
+	position:absolute;
+	width:50%;
+	left:50%;
+	right:0%;
+	top:0%;
+	bottom:0%;
+}
+
+.gaucheFonce {
+	background:rgba(58,58,58,1.00);	
+	position:absolute;
+	width:50%;
+	left:0%;
+	top:0%;
+	bottom:0%;
+}
+
+.fondClair {
+	background:rgba(210,210,210,1.00);
+	position:absolute;
+	right:0%;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	
+}
+
+/* Mains textes gauche et droite */
+
+.mainGauche {
+	position:absolute;
+	width:30%;
+	left:10%;
+	top:33%
+}
+
+.mainDroite {
+	position:absolute;
+	width:30%;
+	left:60%;
+	top:33%
+}
+
+/* Boutons clairs */
+
+.boutonDroiteHautClair {
+	position:absolute;
+	top:33%;
+	right:25%;
+	color: rgba(58,58,58,1.00);
+	background-color: rgba(210,210,210,1.00);
+}
+
+.boutonGaucheHautClair {
+	position:absolute;
+	top:33%;
+	left:25%;
+	color: rgba(58,58,58,1.00);
+	background-color: rgba(210,210,210,1.00);
+}
+
+.boutonDroiteBasClair {
+	position:absolute;
+	bottom: 33%;
+	right:25%;
+	color: rgba(58,58,58,1.00);
+	background-color: rgba(210,210,210,1.00);
+}
+
+.boutonGaucheBasClair {
+	position:absolute;
+	bottom: 33%;
+	left:25%;
+	color: rgba(58,58,58,1.00);
+	background-color: rgba(210,210,210,1.00);
+}
+
+/* Boutons Foncés */
+
+.boutonDroiteHautFonce {
+	position:absolute;
+	top:33%;
+	right:25%;
+	color: rgba(210,210,210,1.00);
+	background-color: rgba(58,58,58,1.00);
+}
+
+.boutonGaucheHautFonce {
+	position:absolute;
+	top:33%;
+	left:25%;
+	color: rgba(210,210,210,1.00);
+	background-color: rgba(58,58,58,1.00);
+}
+
+.boutonDroiteBasFonce {
+	position:absolute;
+	bottom: 33%;
+	right:25%;
+	color: rgba(210,210,210,1.00);
+	background-color: rgba(58,58,58,1.00);
+}
+
+.boutonGaucheBasFonce {
+	position:absolute;
+	bottom: 33%;
+	left:25%;
+	color: rgba(210,210,210,1.00);
+	background-color: rgba(58,58,58,1.00);
+}
+
+/* Les a doivent avoir la même gueule */
+
+a {
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-size: large;
+}
+
+/* Hover des boutons clairs */
+
+.boutonDroiteHautClair:hover, .boutonDroiteBasClair:hover, .boutonGaucheHautClair:hover, .boutonGaucheBasClair:hover {
+	color:rgba(210,210,210,1.00);
+	background-color:rgba(58,58,58,1.00);
+}
+
+/* Hover des boutons foncés */
+
+.boutonDroiteHautFonce:hover, .boutonDroiteBasFonce:hover, .boutonGaucheHautFonce:hover, .boutonGaucheBasFonce:hover {
+	color:rgba(58,58,58,1.00);
+	background-color:rgba(210,210,210,1.00);
+	
+}
+
+
+/* pour vomir */
+
+.central {
+	position:absolute;
+	top:20%;
+	left:39%
+}
+
+.central2 {
+	position:absolute;
+	top: 70%;
+	color:black;
+	left:40%;
+	right:40%
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: rgba(220,220,220,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.champMessage {
+	position:absolute;
+	left:15%;
+	right:15%;
+	top:5%;	
+	text-align: center;
+	height:20%;
+}
+
+.champChat {
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 40%;
+	text-align: center;
+}
+
+.loginPage {
+	position:absolute;
+	top:25%;
+	left:25%;	
+}
+
+.tour1 {
+	text-decoration: none;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+}
+
+.tour2 {
+	text-decoration: none;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+}

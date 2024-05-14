@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Positionements latéraux */
+
+.leftHalf {
+	position:absolute;
+	left:0%;
+	width:50%;
+}
+
+.rightHalf {
+	position:absolute;
+	left:50%;
+	width:50%;
+}
+
+.leftThird {
+	position:absolute;
+	left:0%;
+	width:33%;	
+}
+
+.rightThird {
+	position:absolute;
+	left:67%;
+	width:33%;	
+}
+
+.VerticalCentralThird {
+	position:absolute;
+	left:33%;
+	width:34%;	
+}
+
+.glueLeft {
+	position:absolute;
+	left:0%;
+}
+
+.glueRight {
+	position:absolute;
+	right:0%;
+}
+
+/* Positionnements horizontaux */
+
+.topHalf {
+	position:absolute;
+	top:0%;
+	height:50%;
+}
+
+.bottomHalf {
+	position:absolute;
+	top:50%;
+	height:50%;
+}
+
+.topThird {
+	position:absolute;
+	top:0%;
+	height:33%;	
+}
+
+.bottomThird {
+	position:absolute;
+	top:67%;
+	height:33%;	
+}
+
+.horizontalCentralThird {
+	position:absolute;
+	top:33%;
+	height:34%;	
+}
+
+.glueTop {
+	position:absolute;
+	top:0%;
+}
+
+.glueBot {
+	position:absolute;
+	bottom:0%;
+}
+
+/* Set de couleurs de background */
+
+.backLgrey {
+	background-color:rgba(204,204,204,1.00);	
+}
+
+.backDgrey {
+	background-color:rgba(55,55,55,1.00);	
+}
+
+.backKlein {
+	background-color:rgba(1,47,167,1.00);
+}
+
+.backBordeau {
+	background-color:rgba(109,8,26,1.00);
+}
+
+.backRoi {
+	background-color:rgba(49,140,231,1.00);
+}
+
+.backCoquelicot {
+	background-color:rgba(197,9,0,1.00);
+}
+
+.backCarmin {
+	background-color:rgba(150,0,25,1.00);
+}
+
+.backVessie  {
+	background-color:rgba(34,119,15,1.00);
+}
+
+.backSienne  {
+	background-color:rgba(137,51,36,1.00);
+}
+
+.backLapis  {
+	background-color:rgba(38,97,155,1.00);
+}
+
+.backAbricot  {
+	background-color:rgba(229,126,47,1.00);
+}
+
+.backCitrouille  {
+	background-color:rgba(223,109,20,1.00);
+}
+
+.backCardinal  {
+	background-color:rgba(184,33,16,1.00);
+}
+
+.backPrune  {
+	background-color:rgba(129,21,83,1.00);
+}
+
+.backMalachite  {
+	background-color:rgba(32,160,85,1.00);
+}
+
+.backOlive  {
+	background-color:rgba(112,141,25,1.00);
+}
+
+.backMais  {
+	background-color:rgba(255,222,117,1.00);
+}
+
+.backCreme  {
+	background-color:rgba(253,241,183,1.00);
+}
+
+.backCaeruleum  {
+	background-color:rgba(53,121,182,1.00);
+}
+
+.backIndigo  {
+	background-color:rgba(122,28,248,1.00);
+}
+
+
+/* Set de couleurs de texte */
+
+.textWhite {
+	color:white;
+}
+
+.textBlack {
+	color:black;
+}
+
+.textLgrey {
+	color:rgba(204,204,204,1.00);
+}
+
+.textDgrey {
+	color:rgba(55,55,55,1.00);
+}
+
+
+.textKlein {
+	color:rgba(1,47,167,1.00);
+}
+
+.textBordeau {
+	color:rgba(109,8,26,1.00);
+}
+
+.textRoi {
+	color:rgba(49,140,231,1.00);
+}
+
+.textCoquelicot {
+	color:rgba(197,9,0,1.00);
+}
+
+.textCarmin {
+	color:rgba(150,0,25,1.00);
+}
+
+.textVessie  {
+	color:rgba(34,119,15,1.00);
+}
+
+.textSienne  {
+	color:rgba(137,51,36,1.00);
+}
+
+.textLapis  {
+	color:rgba(38,97,155,1.00);
+}
+
+.textAbricot  {
+	color:rgba(229,126,47,1.00);
+}
+
+.textCitrouille  {
+	color:rgba(223,109,20,1.00);
+}
+
+.textCardinal  {
+	color:rgba(184,33,16,1.00);
+}
+
+.textPrune  {
+	color:rgba(129,21,83,1.00);
+}
+
+.textMalachite  {
+	color:rgba(32,160,85,1.00);
+}
+
+.textOlive  {
+	color:rgba(112,141,25,1.00);
+}
+
+.textMais  {
+	color:rgba(255,222,117,1.00);
+}
+
+.textCreme  {
+	color:rgba(253,241,183,1.00);
+}
+
+.textCaeruleum  {
+	color:rgba(53,121,182,1.00);
+}
+
+.textIndigo  {
+	color:rgba(122,28,248,1.00);
+}
+
+/* Outils */
+
+.button {
+	position:absolute;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-size: large;
+}

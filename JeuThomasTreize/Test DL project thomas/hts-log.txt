@@ -1,0 +1,12 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 17 Sep 2017 10:19:04 at http://www.math.univ-montp2.fr/~cibils/tc/D%E9part.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.math.univ-montp2.fr/~cibils/tc/D%E9part.html -O1 "C:\Mes_choses\MesProjets\DL jeu tcb\Test DL project thomas" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:19:05	Warning: 	Note: due to www.math.univ-montp2.fr remote robots.txt rules, links beginning with these path will be forbidden: /var/www/html/baba/, /var/www/html/glpi/, /var/www/html/grr/, /var/www/html/phpBB3/, /var/www/html/usvn/, /var/www/html/usvn-1.0.7/, /var/www/html/groth2015/ (see in the options to disable this)
+
+HTTrack Website Copier/3.49-2 mirror complete in 20 seconds : 60 links scanned, 59 files written (180637 bytes overall) [196789 bytes received at 9839 bytes/sec]
+(No errors, 1 warnings, 0 messages)

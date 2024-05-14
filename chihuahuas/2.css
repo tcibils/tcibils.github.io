@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+body {
+	background-image: url(chihuahua.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover;
+	/* Police changeable ici */
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#alpha {
+	position:fixed;
+	bottom:25px;
+	left:75px;	
+}
+
+#fondexplosion {
+	background-image: url(explosion.jpg);
+
+}
+
+
+#fond7080 {
+	background-image: url(musique7080.jpg);
+}
+
+.gameNavigation7080 ul {
+	list-style-type: none;
+}
+
+#ul7080 a {
+	position: fixed;
+	left: 200px;
+	top: 550px;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	background-color:rgba(7,199,184,1.00);
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	color: rgba(0,0,0,1.00);
+	border-radius: 10px;
+	border: thin solid rgba(0,0,0,1.00);
+}
+
+#mainnav7080 :hover {
+	background-color: rgba(249,141,227,1.00);
+	
+}
+
+.video7080 {
+	position: absolute;
+	top: 75px;
+	left: 50px;	
+}
+
+#maintext {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	right: 65%;
+	text-align: justify;
+	background-color:rgba(186,129,90,0.80);
+	color:black;	
+
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	border-radius: 10px;
+}
+
+
+#video {
+	position: absolute;
+	top: 75px;
+	left : 75px;	
+}
+
+#mainnav ul {
+	list-style-type: none;
+}
+
+#mainnav a {
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	position: absolute;
+	background-color:rgba(159,103,66,0.80);
+	color:black;	
+}
+
+#reponse1 {
+	top: 500px;
+	left: 75px;
+}
+
+#reponse2 {
+	top: 600px;
+	left: 75px;	
+}
+
+.bref {
+	position: absolute;
+	left: 15%;
+	bottom: 5%;	
+}
+
+.reponse1-1 {
+	position: absolute;	
+	left: 10%;
+	top: 20%;
+}
+.reponse1-2 {
+	position: absolute;	
+	right: 70%;
+	top: 20%;
+}
+.reponse1-3 {
+	position: absolute;	
+	left: 10%;
+	top: 27%;
+}
+.reponse1-4 {
+	position: absolute;	
+	right: 70%;
+	top: 27%;
+}
+.reponse1-5 {
+	position: absolute;	
+	left: 10%;
+	top: 34%;
+}
+.reponse1-6 {
+	position: absolute;	
+	right: 70%;
+	top: 34%;
+}
+
+.reponse1-7 {
+	position: absolute;
+	left: 10%;
+	top: 41%;	
+}
+
+.reponse1-8 {
+	position: absolute;
+	right: 70%;
+	top: 41%;	
+}
+.reponse2-1 {
+	position: absolute;
+	top: 20%;
+}
+
+.reponse2-2 {
+	position: absolute;
+	top: 27%;	
+}
+
+.reponse2-3 {
+	position:absolute;
+	top: 34%;	
+}
+
+
+
+#mainnav :hover {
+	background-color:black;
+	color:rgba(223,187,151,1);	
+}
+
+#maintext {
+
+}
+
+
+
+footer {
+	position: absolute;
+	bottom: 0%;
+	text-color: black;
+	background-color: white;
+	clear: both;
+	right: 0%;
+	font-size: x-small;
+}
+
+.gameNavigationexplosion ul, .gameNavigationkidding ul {
+	list-style-type: none;
+}
+
+#mainnavexplosion a, #mainnavkidding a {
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	position: absolute;
+	font-size: x-large;
+}
+
+#mainnavexplosion :hover {
+	background-color:rgba(179,29,2,1);
+	color:rgba(253,228,146,1);
+}
+
+#mainnavexplosion a{
+	left: 46%;
+	bottom: 5%;	
+	background-color: black;
+	color: rgba(188,188,188,1);
+}
+

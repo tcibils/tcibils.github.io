@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Set de couleurs de background */
+
+.backLgrey {
+	background-color:rgba(220,220,220,1.00);	
+}
+
+.backDgrey {
+	background-color:rgba(55,55,55,1.00);	
+}
+
+.backKlein {
+	background-color:rgba(1,47,167,1.00);
+}
+
+.backBordeau {
+	background-color:rgba(109,8,26,1.00);
+}
+
+.backRoi {
+	background-color:rgba(49,140,231,1.00);
+}
+
+.backCoquelicot {
+	background-color:rgba(197,9,0,1.00);
+}
+
+.backCarmin {
+	background-color:rgba(150,0,25,1.00);
+}
+
+.backVessie  {
+	background-color:rgba(34,119,15,1.00);
+}
+
+.backSienne  {
+	background-color:rgba(137,51,36,1.00);
+}
+
+.backLapis  {
+	background-color:rgba(38,97,155,1.00);
+}
+
+.backAbricot  {
+	background-color:rgba(229,126,47,1.00);
+}
+
+.backCitrouille  {
+	background-color:rgba(223,109,20,1.00);
+}
+
+.backCardinal  {
+	background-color:rgba(184,33,16,1.00);
+}
+
+.backPrune  {
+	background-color:rgba(129,21,83,1.00);
+}
+
+.backMalachite  {
+	background-color:rgba(32,160,85,1.00);
+}
+
+.backOlive  {
+	background-color:rgba(112,141,25,1.00);
+}
+
+.backMais  {
+	background-color:rgba(255,222,117,1.00);
+}
+
+.backCreme  {
+	background-color:rgba(253,241,183,1.00);
+}
+
+.backCaeruleum  {
+	background-color:rgba(53,121,182,1.00);
+}
+
+.backIndigo  {
+	background-color:rgba(122,28,248,1.00);
+}
+
+.backTurquin {
+	background-color:rgba(66,91,138,1.00);	
+}
+
+/* Set de couleurs de background pour Hover */
+
+.backLgreyHover:hover {
+	background-color:rgba(220,220,220,1.00);	
+}
+
+.backDgreyHover:hover {
+	background-color:rgba(55,55,55,1.00);	
+}
+
+.backKleinHover:hover {
+	background-color:rgba(1,47,167,1.00);
+}
+
+.backBordeauHover:hover {
+	background-color:rgba(109,8,26,1.00);
+}
+
+.backRoiHover:hover {
+	background-color:rgba(49,140,231,1.00);
+}
+
+.backCoquelicotHover:hover {
+	background-color:rgba(197,9,0,1.00);
+}
+
+.backCarminHover:hover {
+	background-color:rgba(150,0,25,1.00);
+}
+
+.backVessieHover:hover  {
+	background-color:rgba(34,119,15,1.00);
+}
+
+.backSienneHover:hover  {
+	background-color:rgba(137,51,36,1.00);
+}
+
+.backLapisHover:hover  {
+	background-color:rgba(38,97,155,1.00);
+}
+
+.backAbricotHover:hover  {
+	background-color: rgba(229,126,47,1.00);
+	font-size: x-large;
+}
+
+.backCitrouilleHover:hover  {
+	background-color:rgba(223,109,20,1.00);
+}
+
+.backCardinalHover:hover  {
+	background-color:rgba(184,33,16,1.00);
+}
+
+.backPruneHover:hover  {
+	background-color:rgba(129,21,83,1.00);
+}
+
+.backMalachiteHover:hover  {
+	background-color:rgba(32,160,85,1.00);
+}
+
+.backOliveHover:hover  {
+	background-color:rgba(112,141,25,1.00);
+}
+
+.backMaisHover:hover  {
+	background-color:rgba(255,222,117,1.00);
+}
+
+.backCremeHover:hover  {
+	background-color:rgba(253,241,183,1.00);
+}
+
+.backCaeruleumHover:hover  {
+	background-color:rgba(53,121,182,1.00);
+}
+
+.backIndigoHover:hover  {
+	background-color:rgba(122,28,248,1.00);
+}
+
+.backTurquinHover:hover {
+	background-color:rgba(66,91,138,1.00);	
+}
