@@ -1,0 +1,1053 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Obvious stuff */
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;		
+}
+
+/* Positionements latéraux */
+
+.leftHalf {
+	position:absolute;
+	left:0%;
+	width:50%;
+}
+
+.rightHalf {
+	position:absolute;
+	left:50%;
+	width:50%;
+}
+
+.leftThird {
+	position:absolute;
+	left:0%;
+	width:33%;	
+}
+
+.rightThird {
+	position:absolute;
+	left:67%;
+	width:33%;	
+}
+
+.verticalCentralThird {
+	position:absolute;
+	left:33%;
+	width:34%;	
+}
+
+.glueLeft {
+	position:absolute;
+	left:0%;
+}
+
+.glueRight {
+	position:absolute;
+	right:0%;
+}
+
+/* Positionnements horizontaux */
+
+.topHalf {
+	position:absolute;
+	top:0%;
+	height:50%;
+}
+
+.bottomHalf {
+	position:absolute;
+	top:50%;
+	height:50%;
+}
+
+.topThird {
+	position:absolute;
+	top:0%;
+	height:33%;	
+}
+
+.horizontalCentralThird {
+	position:absolute;
+	top:33%;
+	height:34%;	
+}
+
+.bottomThird {
+	position:absolute;
+	top:66%;
+	height:34%;	
+}
+
+
+
+.glueTop {
+	position:absolute;
+	top:0%;
+}
+
+.glueBot {
+	position:absolute;
+	bottom:0%;
+}
+
+/* Set de couleurs de background */
+
+.backLgrey {
+	background-color:rgba(220,220,220,1.00);	
+}
+
+.backDgrey {
+	background-color:rgba(55,55,55,1.00);	
+}
+
+.backKlein {
+	background-color:rgba(1,47,167,1.00);
+}
+
+.backBordeau {
+	background-color:rgba(109,8,26,1.00);
+}
+
+.backRoi {
+	background-color:rgba(49,140,231,1.00);
+}
+
+.backCoquelicot {
+	background-color:rgba(197,9,0,1.00);
+}
+
+.backCarmin {
+	background-color:rgba(150,0,25,1.00);
+}
+
+.backVessie  {
+	background-color:rgba(34,119,15,1.00);
+}
+
+.backSienne  {
+	background-color:rgba(137,51,36,1.00);
+}
+
+.backLapis  {
+	background-color:rgba(38,97,155,1.00);
+}
+
+.backAbricot  {
+	background-color:rgba(229,126,47,1.00);
+}
+
+.backCitrouille  {
+	background-color:rgba(223,109,20,1.00);
+}
+
+.backCardinal  {
+	background-color:rgba(184,33,16,1.00);
+}
+
+.backPrune  {
+	background-color:rgba(129,21,83,1.00);
+}
+
+.backMalachite  {
+	background-color:rgba(32,160,85,1.00);
+}
+
+.backOlive  {
+	background-color:rgba(112,141,25,1.00);
+}
+
+.backMais  {
+	background-color:rgba(255,222,117,1.00);
+}
+
+.backCreme  {
+	background-color:rgba(253,241,183,1.00);
+}
+
+.backCaeruleum  {
+	background-color:rgba(53,121,182,1.00);
+}
+
+.backIndigo  {
+	background-color:rgba(122,28,248,1.00);
+}
+
+.backTurquin {
+	background-color:rgba(66,91,138,1.00);	
+}
+
+/* Set de couleurs de background pour Hover */
+
+.backLgreyHover:hover {
+	background-color:rgba(220,220,220,1.00);	
+}
+
+.backDgreyHover:hover {
+	background-color:rgba(55,55,55,1.00);	
+}
+
+.backKleinHover:hover {
+	background-color:rgba(1,47,167,1.00);
+}
+
+.backBordeauHover:hover {
+	background-color:rgba(109,8,26,1.00);
+}
+
+.backRoiHover:hover {
+	background-color:rgba(49,140,231,1.00);
+}
+
+.backCoquelicotHover:hover {
+	background-color:rgba(197,9,0,1.00);
+}
+
+.backCarminHover:hover {
+	background-color:rgba(150,0,25,1.00);
+}
+
+.backVessieHover:hover  {
+	background-color:rgba(34,119,15,1.00);
+}
+
+.backSienneHover:hover  {
+	background-color:rgba(137,51,36,1.00);
+}
+
+.backLapisHover:hover  {
+	background-color:rgba(38,97,155,1.00);
+}
+
+.backAbricotHover:hover  {
+	background-color: rgba(229,126,47,1.00);
+	font-size: x-large;
+}
+
+.backCitrouilleHover:hover  {
+	background-color:rgba(223,109,20,1.00);
+}
+
+.backCardinalHover:hover  {
+	background-color:rgba(184,33,16,1.00);
+}
+
+.backPruneHover:hover  {
+	background-color:rgba(129,21,83,1.00);
+}
+
+.backMalachiteHover:hover  {
+	background-color:rgba(32,160,85,1.00);
+}
+
+.backOliveHover:hover  {
+	background-color:rgba(112,141,25,1.00);
+}
+
+.backMaisHover:hover  {
+	background-color:rgba(255,222,117,1.00);
+}
+
+.backCremeHover:hover  {
+	background-color:rgba(253,241,183,1.00);
+}
+
+.backCaeruleumHover:hover  {
+	background-color:rgba(53,121,182,1.00);
+}
+
+.backIndigoHover:hover  {
+	background-color:rgba(122,28,248,1.00);
+}
+
+.backTurquinHover:hover {
+	background-color:rgba(66,91,138,1.00);	
+}
+
+/* Set de couleurs de texte */
+
+.textWhite {
+	color:white;
+}
+
+.textBlack {
+	color:black;
+}
+
+.textLgrey {
+	color:rgba(220,220,220,1.00);
+}
+
+.textDgrey {
+	color:rgba(55,55,55,1.00);
+}
+
+
+.textKlein {
+	color:rgba(1,47,167,1.00);
+}
+
+.textBordeau {
+	color:rgba(109,8,26,1.00);
+}
+
+.textRoi {
+	color:rgba(49,140,231,1.00);
+}
+
+.textCoquelicot {
+	color:rgba(197,9,0,1.00);
+}
+
+.textCarmin {
+	color:rgba(150,0,25,1.00);
+}
+
+.textVessie  {
+	color:rgba(34,119,15,1.00);
+}
+
+.textSienne  {
+	color:rgba(137,51,36,1.00);
+}
+
+.textLapis  {
+	color:rgba(38,97,155,1.00);
+}
+
+.textAbricot  {
+	color:rgba(229,126,47,1.00);
+}
+
+.textCitrouille  {
+	color:rgba(223,109,20,1.00);
+}
+
+.textCardinal  {
+	color:rgba(184,33,16,1.00);
+}
+
+.textPrune  {
+	color:rgba(129,21,83,1.00);
+}
+
+.textMalachite  {
+	color:rgba(32,160,85,1.00);
+}
+
+.textOlive  {
+	color:rgba(112,141,25,1.00);
+}
+
+.textMais  {
+	color:rgba(255,222,117,1.00);
+}
+
+.textCreme  {
+	color:rgba(253,241,183,1.00);
+}
+
+.textCaeruleum  {
+	color:rgba(53,121,182,1.00);
+}
+
+.textIndigo  {
+	color:rgba(122,28,248,1.00);
+}
+
+.textTurquin {
+	color:rgba(66,91,138,1.00);	
+}
+
+/* Set de couleurs de texte pour Hover */
+
+.textWhiteHover:hover {
+	color:white;
+}
+
+.textBlackHover:hover {
+	color:black;
+}
+
+.textLgreyHover:hover {
+	color:rgba(220,220,220,1.00);
+}
+
+.textDgreyHover:hover {
+	color:rgba(55,55,55,1.00);
+}
+
+
+.textKleinHover:hover {
+	color:rgba(1,47,167,1.00);
+}
+
+.textBordeauHover:hover {
+	color:rgba(109,8,26,1.00);
+}
+
+.textRoiHover:hover {
+	color:rgba(49,140,231,1.00);
+}
+
+.textCoquelicotHover:hover {
+	color:rgba(197,9,0,1.00);
+}
+
+.textCarminHover:hover {
+	color:rgba(150,0,25,1.00);
+}
+
+.textVessieHover:hover  {
+	color:rgba(34,119,15,1.00);
+}
+
+.textSienneHover:hover  {
+	color:rgba(137,51,36,1.00);
+}
+
+.textLapisHover:hover  {
+	color:rgba(38,97,155,1.00);
+}
+
+.textAbricotHover:hover  {
+	color:rgba(229,126,47,1.00);
+}
+
+.textCitrouilleHover:hover  {
+	color:rgba(223,109,20,1.00);
+}
+
+.textCardinalHover:hover  {
+	color:rgba(184,33,16,1.00);
+}
+
+.textPruneHover:hover  {
+	color:rgba(129,21,83,1.00);
+}
+
+.textMalachiteHover:hover  {
+	color:rgba(32,160,85,1.00);
+}
+
+.textOliveHover:hover  {
+	color:rgba(112,141,25,1.00);
+}
+
+.textMaisHover:hover  {
+	color:rgba(255,222,117,1.00);
+}
+
+.textCremeHover:hover  {
+	color:rgba(253,241,183,1.00);
+}
+
+.textCaeruleumHover:hover {
+	color:rgba(53,121,182,1.00);
+}
+
+.textIndigoHover:hover  {
+	color:rgba(122,28,248,1.00);
+}
+
+.textTurquinHover:hover {
+	color:rgba(66,91,138,1.00);	
+}
+
+/* --------------------------------------------------- */
+/* ----- Positionnements boutons selon frameworks -----*/
+/* --------------------------------------------------- */
+
+/* aa */
+
+.aa1{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.aa2{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:22.5%;
+}
+.aa3{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:72.5%;
+}
+.aa4{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:72.5%;
+}
+
+/* ab */
+
+.ab1{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:31.5%;
+}
+
+.ab2{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:31.5%;
+}
+
+.ab3{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:63.5%;
+}
+
+.ab4{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:63.5%;
+}
+
+/* ac */
+
+.ac1{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:14%;
+}
+
+.ac2{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:14%;
+}
+
+.ac3{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.ac4{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.ac5{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:80.5%;
+}
+
+.ac6{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:80.5%;
+}
+
+/* ad */
+
+.ad1{
+	position:absolute;
+	top:22.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.ad2{
+	position:absolute;
+	top:72.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+/* ba */
+
+.ba1{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.ba2{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.ba3{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:72.5%;
+}
+
+.ba4{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:72.5%;
+}
+
+/* bb */
+
+.bb1{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:31%;
+}
+
+.bb2{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:31%;
+}
+
+.bb3{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:63.5%;
+}
+
+.bb4{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:63.5%;
+}
+
+/* bc */
+
+.bc1{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:14%;
+}
+
+.bc2{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:14%;
+}
+
+.bc3{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.bc4{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.bc5{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:81%;
+}
+
+.bc6{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:81%;
+}
+
+/* bd */
+
+.bd1{
+	position:absolute;
+	top:31%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.bd2{
+	position:absolute;
+	top:63.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+/* ca */
+
+.ca1{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.ca2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.ca3{
+	position:absolute;
+	top:81%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.ca4{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:72.5%;
+}
+
+.ca5{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:72.5%;
+}
+
+.ca6{
+	position:absolute;
+	top:81%;
+	max-height:5%;
+	left:72.5%;
+}
+
+/* cb */
+
+.cb1{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:31%;
+}
+
+.cb2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:31%;
+}
+
+.cb3{
+	position:absolute;
+	top:81%;
+	max-height:5%;
+	left:31%;
+}
+
+.cb4{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:63.5%;
+}
+
+.cb5{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:63.5%;
+}
+
+.cb6{
+	position:absolute;
+	top:81%;
+	max-height:5%;
+	left:63.5%;
+}
+
+
+/* cc */
+
+.cc1{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:14%;
+}
+
+.cc2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:14%;
+}
+.cc3{
+	position:absolute;
+	top:80%;
+	max-height:5%;
+	left:14%;
+}
+.cc4{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:47.5%;
+}
+.cc5{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:47.5%;
+}
+.cc6{
+	position:absolute;
+	top:80%;
+	max-height:5%;
+	left:47%;
+}
+.cc7{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:80%;
+}
+.cc8{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:80%;
+}
+.cc9{
+	position:absolute;
+	top:80%;
+	max-height:5%;
+	left:80%;
+}
+
+/* cd */
+
+.cd1{
+	position:absolute;
+	top:14%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.cd2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:47.5%;
+}
+.cd3{
+	position:absolute;
+	top:80%;
+	max-height:5%;
+	left:47.5%;
+}
+
+/* da */
+
+.da1{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:22.5%;
+}
+
+.da2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:72.5%;
+}
+
+/* db */
+
+.db1{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:31%;
+}
+
+.db2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:65%;
+}
+
+/* dc */
+
+.dc1{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:14%;
+}
+
+.dc2{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+.dc3{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:80%;
+}
+
+/* dd */
+
+.dd1{
+	position:absolute;
+	top:47.5%;
+	max-height:5%;
+	left:47.5%;
+}
+
+
+/* Autres */
+
+/* Outils */
+
+.button {
+	position: absolute;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	font-size: x-large;
+}
+
+.navbar-checkpoint {
+	position:absolute;
+	left:9%;
+	bottom:12.5%;
+	font-size: large;
+}
+
+.navbar-checkpoint ul{
+	list-style-type: none;
+}
+
+.topNavButton {	
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding:10px;
+	display: block;
+	
+}
+
+.bottomNavButton {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.navbar-checkpoint li {
+	text-decoration:none;
+	text-align:center;
+}
+
+.navbar-checkpoint a {
+	padding:10px;
+	display: block;
+}
+
+.text-explication-left {
+	position:absolute;
+	top:25%;
+	left:15%;
+	right:48%;	
+}
+
+.text-explication-right {
+	position:absolute;
+	top:25%;
+	right:15%;
+	left:48%;	
+}
+
+.text-explication-right-final {
+	position:absolute;
+	top:20%;
+	right:15%;
+	left:48%;	
+}
+
+.navbar-checkpoint-Border {
+	border: thin solid rgba(220,220,220,1.00);
+	border-radius: 10px;	
+}
+
+
+
+.bold {
+	font-weight: bold;	
+}
+
+.boldHover:hover{
+	font-weight: bolder;
+	font-size: x-large;	
+}
+
+.formulaireFinal {
+	position:absolute;
+	left:50%;
+	top:50px;
+}
+
+.formulaireAbandon {
+	position:absolute;
+	left:15%;
+	top:50px;
+}
+
+.textfinal {
+	position:absolute;
+	top:600px;
+	left:50%;
+}
+
+.chiffreFinJeu {
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
