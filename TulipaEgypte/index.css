@@ -1,0 +1,22 @@
+
+h1 {
+    color:rgb(0, 30, 161)
+}
+
+h2 {
+    color:black
+}
+
+body {
+    background-color:rgb(211, 211, 255);
+    color:rgb(3, 0, 172);
+    font-size: larger;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
