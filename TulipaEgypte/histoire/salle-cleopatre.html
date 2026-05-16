@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La salle secrète</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sable: #F5E6C8;
+      --or: #C9A84C;
+      --or-fonce: #8B6914;
+      --or-brillant: #FFD700;
+      --violet-tulipa: #7B3FA0;
+      --noir-ecrit: #2A1F0E;
+      --rouge-danger: #C0392B;
+      --vert-victoire: #27AE60;
+    }
+    body {
+      background: radial-gradient(ellipse at center, #FFD700 0%, var(--sable) 80%);
+      font-family: 'Caveat', cursive;
+      font-size: 1.5rem;
+      color: var(--noir-ecrit);
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .page {
+      background: #FEFAF0;
+      border-radius: 8px;
+      padding: 2.5rem;
+      box-shadow: 0 0 30px rgba(255,215,0,0.5), 4px 4px 20px rgba(0,0,0,0.18);
+      border: 2px solid var(--or-brillant);
+    }
+    h1 { font-family: 'Fredoka One', cursive; color: var(--or-fonce); font-size: 2.2rem; margin-top: 0; }
+    hr { border: none; border-top: 2px solid var(--or); margin: 1.5rem 0; }
+    .btn-choix {
+      display: block;
+      width: 100%;
+      margin: 0.8rem 0;
+      padding: 1rem 1.5rem;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.3rem;
+      border: 3px solid var(--or-fonce);
+      border-radius: 12px;
+      background: var(--or);
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.2s;
+      box-sizing: border-box;
+    }
+    .btn-choix:hover { background: var(--or-fonce); transform: scale(1.03); }
+    .emoji-deco { font-size: 2.5rem; text-align: center; margin: 0.5rem 0; }
+    .cobra-icon { font-size: 4rem; text-align: center; display: block; animation: cobra-sway 2s ease-in-out infinite; }
+    @keyframes cobra-sway {
+      0%, 100% { transform: rotate(-5deg); }
+      50% { transform: rotate(5deg); }
+    }
+    .avertissement {
+      background: #FFF3CD;
+      border: 2px solid var(--rouge-danger);
+      border-radius: 8px;
+      padding: 0.8rem 1.2rem;
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      color: #7D3C00;
+    }
+    .page-num { font-family: 'Fredoka One', cursive; font-size: 0.9rem; color: var(--or-fonce); text-align: right; margin-top: 2rem; opacity: 0.7; }
+    .footer-auteur { font-family: 'Caveat', cursive; font-size: 0.85rem; text-align: center; color: var(--or-fonce); opacity: 0.7; margin-top: 1rem; }
+    .retour-debut { display: block; text-align: center; font-size: 0.9rem; color: var(--or-fonce); text-decoration: none; margin-top: 0.5rem; opacity: 0.6; }
+    .retour-debut:hover { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>La salle secrète</h1>
+    <div class="emoji-deco">✨🏺👑</div>
+    <span class="cobra-icon">🐍</span>
+    <hr>
+    <p>
+      Vous avancez dans le couloir de droite. Le sol de sable tremble doucement sous vos pieds, puis s'ouvre en deux comme par magie. Un escalier doré apparaît, menant à une grande salle secrète.
+    </p>
+    <p>
+      Mais au centre de la salle, enroulé autour d'un coffre en or, un cobra gigantesque vous regarde de ses yeux jaunes. Il garde Cléopâtre.
+    </p>
+    <p>
+      Il vous faudra l'affronter. Vous avez trois armes dans votre sac : un revolver, une hache et une épée. Il faut bien choisir l'ordre dans lequel les utiliser !
+    </p>
+    <div class="avertissement">
+      ⚠️ Attention : l'ordre est important ! Une seule séquence fonctionne.
+    </div>
+    <hr>
+    <a class="btn-choix" href="cobra-round1.html">Affronter le cobra →</a>
+    <div class="page-num">Page 10 / 14</div>
+    <a class="retour-debut" href="intro.html">← Retour au début</a>
+    <p class="footer-auteur">Histoire dont vous êtes le héros — par Tulipa, 10 ans 💜</p>
+  </div>
+</body>
+</html>

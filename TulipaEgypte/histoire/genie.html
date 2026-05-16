@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le génie de la lampe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sable: #F5E6C8;
+      --or: #C9A84C;
+      --or-fonce: #8B6914;
+      --or-brillant: #FFD700;
+      --violet-tulipa: #7B3FA0;
+      --noir-ecrit: #2A1F0E;
+      --rouge-danger: #C0392B;
+      --vert-victoire: #27AE60;
+    }
+    body {
+      background: radial-gradient(ellipse at top, #2C0F5E 0%, #1A0A2E 50%, #0A0015 100%);
+      font-family: 'Caveat', cursive;
+      font-size: 1.5rem;
+      color: #FFFDE7;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .page {
+      background: rgba(254, 250, 240, 0.95);
+      color: var(--noir-ecrit);
+      border-radius: 8px;
+      padding: 2.5rem;
+      box-shadow: 0 0 40px rgba(255, 215, 0, 0.4), 4px 4px 20px rgba(0,0,0,0.4);
+      border: 2px solid var(--or-brillant);
+    }
+    h1 { font-family: 'Fredoka One', cursive; color: var(--or-fonce); font-size: 2.2rem; margin-top: 0; }
+    hr { border: none; border-top: 2px solid var(--or); margin: 1.5rem 0; }
+    .btn-choix {
+      display: block;
+      width: 100%;
+      margin: 0.8rem 0;
+      padding: 1rem 1.5rem;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.3rem;
+      border: 3px solid var(--or-fonce);
+      border-radius: 12px;
+      background: var(--or);
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.2s;
+      box-sizing: border-box;
+    }
+    .btn-choix:hover { background: var(--or-fonce); transform: scale(1.03); }
+    .emoji-deco { font-size: 2.5rem; text-align: center; margin: 0.5rem 0; }
+    .genie-anim {
+      font-size: 4rem;
+      text-align: center;
+      display: block;
+      animation: genie-appear 2s ease-out, float 3s ease-in-out 2s infinite;
+    }
+    @keyframes genie-appear {
+      0% { transform: scale(0) rotate(-20deg); opacity: 0; }
+      60% { transform: scale(1.2) rotate(5deg); opacity: 1; }
+      100% { transform: scale(1) rotate(0deg); opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .etoiles-fond {
+      font-size: 1rem;
+      text-align: center;
+      letter-spacing: 0.8rem;
+      opacity: 0.5;
+      margin: 0.3rem 0;
+    }
+    .page-num { font-family: 'Fredoka One', cursive; font-size: 0.9rem; color: var(--or-fonce); text-align: right; margin-top: 2rem; opacity: 0.7; }
+    .footer-auteur { font-family: 'Caveat', cursive; font-size: 0.85rem; text-align: center; color: var(--or-fonce); opacity: 0.7; margin-top: 1rem; }
+    .retour-debut { display: block; text-align: center; font-size: 0.9rem; color: var(--or-fonce); text-decoration: none; margin-top: 0.5rem; opacity: 0.6; }
+    .retour-debut:hover { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Le génie de la lampe</h1>
+    <span class="genie-anim">🧞</span>
+    <div class="etoiles-fond">✨ ★ ✨ ★ ✨</div>
+    <div class="emoji-deco">🌟</div>
+    <hr>
+    <p>
+      Vous la frotter : un génie sort et vas vous aider à aller dans la pyramide de Cléopâtre.
+    </p>
+    <p>
+      Le génie vous prend par la main et d'un claquement de doigts, vous vous retrouvez devant la grande pyramide. Elle est immense. Trois couloirs s'ouvrent devant vous dans l'obscurité.
+    </p>
+    <hr>
+    <a class="btn-choix" href="pyramide.html">Entrer dans la pyramide →</a>
+    <div class="page-num">Page 8 / 14</div>
+    <a class="retour-debut" href="intro.html">← Retour au début</a>
+    <p class="footer-auteur">Histoire dont vous êtes le héros — par Tulipa, 10 ans 💜</p>
+  </div>
+</body>
+</html>

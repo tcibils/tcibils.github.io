@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combat — Manche 1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sable: #F5E6C8;
+      --or: #C9A84C;
+      --or-fonce: #8B6914;
+      --noir-ecrit: #2A1F0E;
+      --rouge-danger: #C0392B;
+      --rouge-fonce: #922B21;
+      --vert-victoire: #27AE60;
+      --vert-cobra: #1B5E20;
+    }
+    body {
+      background-color: #0D1F0D;
+      font-family: 'Caveat', cursive;
+      font-size: 1.5rem;
+      color: #A5D6A7;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+    .page {
+      background: #0F2A0F;
+      border-radius: 8px;
+      padding: 2.5rem;
+      box-shadow: 0 0 30px rgba(27,94,32,0.5), 4px 4px 20px rgba(0,0,0,0.6);
+      border: 2px solid #2E7D32;
+    }
+    h1 { font-family: 'Fredoka One', cursive; color: #81C784; font-size: 2rem; margin-top: 0; }
+    .combat-titre {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.4rem;
+      color: var(--or);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    hr { border: none; border-top: 1px solid #2E7D32; margin: 1.5rem 0; }
+    .btn-arme {
+      display: block;
+      width: 100%;
+      margin: 0.8rem 0;
+      padding: 1rem 1.5rem;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.3rem;
+      border: 3px solid var(--or-fonce);
+      border-radius: 12px;
+      background: var(--or);
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.2s;
+      box-sizing: border-box;
+    }
+    .btn-arme:hover { background: var(--or-fonce); transform: scale(1.03); }
+    .emoji-deco { font-size: 2.5rem; text-align: center; margin: 0.5rem 0; }
+    .cobra-grand {
+      font-size: 5rem;
+      text-align: center;
+      display: block;
+      animation: cobra-menace 1.5s ease-in-out infinite;
+    }
+    @keyframes cobra-menace {
+      0%, 100% { transform: translateY(0) rotate(-3deg); }
+      50% { transform: translateY(-8px) rotate(3deg); }
+    }
+    /* Barre de progression combat */
+    .combat-progress {
+      display: flex;
+      gap: 0.8rem;
+      justify-content: center;
+      margin: 1rem 0;
+    }
+    .etape {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+      background: #2E7D32;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: #A5D6A7;
+      font-family: 'Fredoka One', cursive;
+      border: 2px solid #4CAF50;
+    }
+    .etape.active {
+      background: var(--or);
+      border-color: var(--or-fonce);
+      color: white;
+      animation: pulse 1s ease-in-out infinite;
+    }
+    .etape.complete { background: var(--vert-victoire); border-color: #1E8449; color: white; }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+    .page-num { font-family: 'Fredoka One', cursive; font-size: 0.9rem; color: #4CAF50; text-align: right; margin-top: 2rem; opacity: 0.7; }
+    .footer-auteur { font-family: 'Caveat', cursive; font-size: 0.85rem; text-align: center; color: #4CAF50; opacity: 0.7; margin-top: 1rem; }
+    .retour-debut { display: block; text-align: center; font-size: 0.9rem; color: #4CAF50; text-decoration: none; margin-top: 0.5rem; opacity: 0.6; }
+    .retour-debut:hover { opacity: 1; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="combat-titre">⚔️ Combat — Manche 1 sur 3</div>
+    <div class="combat-progress">
+      <div class="etape active">1</div>
+      <div class="etape">2</div>
+      <div class="etape">3</div>
+    </div>
+    <span class="cobra-grand">🐍</span>
+    <div class="emoji-deco">⚔️</div>
+    <hr>
+    <p>
+      Le cobra se dresse devant vous, immense. Sa langue bifide vibre dans l'air. Il attend que vous fassiez le premier geste.
+    </p>
+    <p>
+      Quelle arme utilisez-vous en premier ?
+    </p>
+    <hr>
+    <a class="btn-arme" href="cobra-round2.html">🔫 Le revolver</a>
+    <a class="btn-arme" href="gameover-cobra.html">🪓 La hache</a>
+    <a class="btn-arme" href="gameover-cobra.html">⚔️ L'épée</a>
+    <div class="page-num">Page 11 / 14</div>
+    <a class="retour-debut" href="intro.html">← Retour au début</a>
+    <p class="footer-auteur">Histoire dont vous êtes le héros — par Tulipa, 10 ans 💜</p>
+  </div>
+</body>
+</html>
